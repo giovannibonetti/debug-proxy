@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (2.2.6.4)
+    rack-proxy (0.7.6)
+      rack
+    rackup (1.0.0)
+      rack (< 3)
+      webrick
+    webrick (1.8.1)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  rack (~> 2)
+  rack-proxy
+  rackup
+
+BUNDLED WITH
+   2.3.23
